@@ -1,0 +1,40 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+*/
+.error {
+    color: white;
+    background-color: red;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    height: 100%;
+    position: fixed; 
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on Hover*/
+
+li a:hover{
+    background-color: #000000;
+    color: white;
+}
+
+/* Active class to indicate wich page i'm on */
+
+.active {
+    background-color: #b5e8f2;
+    color: white
+}
