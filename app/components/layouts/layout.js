@@ -1,9 +1,12 @@
-import Navigationbar from '../app/components/modules/elements/navBar'
+import Navbar from '../modules/navBar'
 
-export default function Layout({ children }) {
+export default function Layout({children}) {
     return (
         <>
-        <Navigationbar /><main>{children}</main>
+            <Navbar />
+            <main>
+                {children}
+            </main>
         </>
-        )
-    }
+    )
+}

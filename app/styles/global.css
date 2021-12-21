@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: white;
+}

@@ -1,40 +1,41 @@
-/*
-You do not need to worry about .error {} colliding with any other `.css` or
-`.module.css` files!
-*/
-.error {
-    color: white;
-    background-color: red;
-  }
-
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    height: 100%;
-    position: fixed; 
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+.navbarlist {
+  display: block;
+  background: rgb(255, 255, 255);
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 25%;
+  font-size: 25px;
+  height: 100%;
 }
 
-li a {
-    display: block;
-    color: #ffffff;
-    padding: 8px 16px;
-    text-decoration: none;
+.navbarphoto {
+  padding: 8px 16px;
+  list-style-type: none;
 }
 
-/* Change the link color on Hover*/
-
-li a:hover{
-    background-color: #000000;
-    color: white;
+.navbaritem {
+  list-style-type: none;
+  display: block;
+  color: black;
+  padding: 8px 16px;
 }
 
-/* Active class to indicate wich page i'm on */
+.navbaritem:hover {
+  background: #555;
+  color: white;
+}
 
-.active {
-    background-color: #b5e8f2;
-    color: white
+.navbarsociallist {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.navbarsocialitem {
+  float: left;
+  display:block;
+  color: black;
+  padding: 14px 16px;
 }
