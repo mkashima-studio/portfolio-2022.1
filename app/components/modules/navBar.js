@@ -4,6 +4,7 @@ import Link from 'next/link'
 export default function Navbar() {
     return (
     <>
+            <img src="/logo.svg" alt= "mkashima logo" width="15%" />
             <ul className={navbar.navbarlist}>
             <li className={navbar.navbaritem}><Link href="/home"><a>Home</a></Link></li>
             <li className={navbar.navbarphoto}>Fotografia
