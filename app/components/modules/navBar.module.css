@@ -5,13 +5,11 @@
   margin: 0px;
   padding: 0px;
   width: 25%;
+  min-width: 180px;
+  max-width: 200px;
   font-size: 25px;
+  position: fixed;
   height: 100%;
-}
-
-.navbarphoto {
-  padding: 8px 16px;
-  list-style-type: none;
 }
 
 .navbaritem {

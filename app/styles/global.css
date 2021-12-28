@@ -12,3 +12,9 @@ li a:hover {
     text-decoration: none;
     color: white;
 }
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
