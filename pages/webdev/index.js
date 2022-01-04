@@ -7,8 +7,8 @@ function WebDev() {
         <p>Idiomas: Inglês, Francês, Japonês</p>
         <br></br>
         <p>Hoje me dedico integralmente a evoluir como Front End. 
-          Em 2021 decidi unir a minha experiência em design gráfico (desde 2011) 
-          e minha formação em Engenharia (na UFRJ) para trabalhar com Desenvolvimento Web. 
+          Em 2021 decidi unir a minha experiência em design gráfico 
+          e minha formação em engenharia para trabalhar com Desenvolvimento Web. 
           Foi uma das melhores escolhas que fiz nos últimos anos :')
         </p>
       </h2>

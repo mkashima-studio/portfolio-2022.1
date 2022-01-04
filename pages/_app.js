@@ -6,8 +6,9 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <title>mkashima portfolio</title>
+        <title>mkashima</title>
         <link rel="favicon" href="public/favicon.ico" />
+        <link rel= "preload" href="/fonts/goudosi.otf" as="font" crossOrigin="" />
       </Head>
       <Component {...pageProps} />
     </Layout>
