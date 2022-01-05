@@ -74,6 +74,8 @@ import port2 from '../public/photos/port/portraits (3).jpg'
 
 function Fotografia() {
     return <div>
+        <h5>mkashima portfolio_2022 •</h5>
+        <h6>/ foto / foto / say cheese</h6>
         <h1>FOTOGRAFIA</h1>
         <div className={fotografia.row}>
             <div className={fotografia.column}>

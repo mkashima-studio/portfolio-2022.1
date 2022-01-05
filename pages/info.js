@@ -1,7 +1,12 @@
 import info from './info.module.css'
+import Image from 'next/image'
+
+import mkphoto2 from '../public/photos/info/mkself2.jpg'
 
 function Info() {
     return <div>
+      <h5>mkashima portfolio_2022 •</h5>
+      <h6>/ info / information / in formation</h6>
       <h1>ABOUT MKASHIMA</h1>
       <h2>
         <p>Maisa Kashima, fev/1991</p>
@@ -72,7 +77,9 @@ function Info() {
           </h2>
         </div>
         <div className={info.column}>
-          <h2>Linha do Tempo</h2>
+          <div className={info.photo}>
+            <Image src={mkphoto2} />
+          </div>
         </div>
       </div>
     </div>

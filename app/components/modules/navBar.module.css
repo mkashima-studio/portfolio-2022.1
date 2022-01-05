@@ -47,9 +47,8 @@
   padding: 8px 8px 0px 45px;
 }
 
-.navbaritem:hover {
-  background: #555;
-  color: white;
+.navbaritem:active {
+  color: red;
 }
 
 .navbarsociallist {

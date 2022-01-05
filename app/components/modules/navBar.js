@@ -14,10 +14,10 @@ export default function Navbar() {
             </li>
             <br></br>
             <br></br>
-            <li className={navbar.navbaritem}><Link href="/fotografia"><a> [ ] FOTOGRAFIA</a></Link></li>
-            <li className={navbar.navbaritem}><Link href="/webDev"><a> # WEB DEV</a></Link></li>
-            <li className={navbar.navbaritem}><Link href="/info"><a> // INFO</a></Link></li>
-            <li className={navbar.navbaritem}><Link href="/contato"><a> @ CONTATO</a></Link></li>
+            <li className={navbar.navbaritem}><Link href="/fotografia"><a>/ FOTOGRAFIA</a></Link></li>
+            <li className={navbar.navbaritem}><Link href="/webDev"><a>/ WEB DEV</a></Link></li>
+            <li className={navbar.navbaritem}><Link href="/info"><a>/ INFO</a></Link></li>
+            <li className={navbar.navbaritem}><Link href="/contato"><a>/ CONTATO</a></Link></li>
             <br></br>
             <br></br>
             <br></br>
