@@ -18,14 +18,32 @@
 }
 
 .explist {
-
+    list-style-type: square;
 }
 
 .expitem {
-
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: justify;
 }
 
 .photo {
     box-shadow: -10px  -10px;
     max-height: 60%;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.item {
+    float: left;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: inline;
+    padding: 5%;
 }

@@ -1,23 +1,52 @@
+import index from './index.module.css'
+import Image from 'next/image'
+import Layout from '../layout'
+
+import cpn from '../../public/photos/webdev/cpn-webdev.png'
+
 function WebDev() {
-  return <div>
+  return (<section>
     <h5>mkashima portfolio_2022 •</h5>
     <h6>/ front end / web dev / we write code</h6>
     <h1>DESENVOLVIMENTO WEB</h1>
     <h2>
-      <p>Skills: React.JS, Next.JS, CSS, HTML, JavaScript, Wordpress, Bootstrap, Git </p>
-      <p>Plus: Photoshop, Illustrator, Lightroom, Indesign, Corel Draw, Figma</p>
-      <p>Idiomas: Inglês, Francês, Japonês</p>
+      <p className={index.skills}><u>Skills</u>: React.JS, Next.JS, CSS, HTML, JavaScript, Wordpress, Bootstrap, Git </p>
+      <p className={index.skills}><u>Plus</u>: Photoshop, Illustrator, Lightroom, Indesign, Corel Draw, Figma</p>
+      <p className={index.skills}><u>Idiomas</u>: Inglês, Francês, Japonês</p>
       <br></br>
-      <p>Pontos Fortes (+): determinação / planejamento / design gráfico e cores /</p>
-      <p>/ aprende por conta própria / organização / engenheira</p>
-      <p>Pontos Fracos (-): não curte platéia, trabalho sob pressão e subjetividade /</p>
-      <p>/ pouca experiência / </p>
     </h2>
 
     <h1>TRABALHOS RECENTES</h1>
-    <h2>(colocar imagens do site da CPN e botão com link pro site atual)</h2>
 
-  </div>
+    <div className={index.row}>
+      <div className={index.column}>
+        <Image src={cpn} />
+      </div>
+      <div className={index.column}>
+        <div>
+          <h2>
+            <p className={index.text}>Desenvolvimento de uma Landing Page para a CPN.</p>
+            <p className={index.text}>Trabalho desde a Season 5, sendo responsável também pela manutenção do site.</p>
+            <p className={index.text}>Este projeto conta ainda com um portal de notícias. Segue o site atualizado:</p>
+          </h2>
+          <ul className={index.list}>
+            <li className={index.item}>
+              <a target="_blank" href="https://cpn.nobru.gg/" rel="noopener noreferrer">CPN WEBSITE <img src="/link-arrow.svg" alt= "arrow to the right" width="100px" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>  
+
+  </section>)
 }
   
 export default WebDev
+
+WebDev.getLayout = function getLayout(page) {
+  return (
+    <Layout>
+      {page}
+    </Layout>
+  )
+}

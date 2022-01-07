@@ -1,18 +1,33 @@
+import React from 'react'
 import index from './index.module.css'
-import Image from 'next/image'
+import Link from 'next/link'
+import Layout from './layout'
 
-import mkphoto1 from '../public/photos/home/mkself1.jpg'
+const WebDevButton = React.forwardRef( ({ onClick, href }, ref) => {
+  return (
+    <a className={index.links} href={href} onClick={onClick} ref={ref}>
+      WEB DEV <img src="/link-arrow.svg" alt= "arrow to the right" width="25%" />
+    </a>
+  )
+})
+
+const FotografiaButton = React.forwardRef(({ onClick, href }, ref) => {
+  return (
+    <a className={index.links} href={href} onClick={onClick} ref={ref}>
+      F0T0GRAFIA <img src="/link-arrow.svg" alt= "arrow to the right" width="25%" />
+    </a>
+  )
+})
 
 function Home() {
-  return <div>
+  return ( <section>
     <h5>mkashima portfolio_2022 •</h5>
     <h6>/ home / home / hello mellow</h6>
     <div className={index.row}>
       <div className={index.column}>
-        <div className={index.photo}>
-          <Image src={mkphoto1} />
-        </div>
+        <img className={index.photo} src="/photos/home/mkself1.jpg" alt= "mkashima self portrait" />
       </div>
+      
       <div className={index.column}>
         <div className={index.hello}>
           HELLO!
@@ -24,15 +39,27 @@ function Home() {
         </h2>
         <ul className={index.list}>
           <li className={index.item}>
-            WEB DEV <img src="/link-arrow.svg" alt= "arrow to the right" width="100px" />
+            <Link href="/webDev" passHref>
+              <WebDevButton />
+            </Link>
           </li>
           <li className={index.item}>
-            F0T0GRAFIA <img src="/link-arrow.svg" alt= "arrow to the right" width="100px" />
+            <Link href="/fotografia" passHref>
+              <FotografiaButton />
+            </Link>
           </li>
         </ul>
       </div>
     </div>
-  </div>
+  </section>)
 }
 
 export default Home
+
+Home.getLayout = function getLayout(page) {
+  return (
+    <Layout>
+      {page}
+    </Layout>
+  )
+}

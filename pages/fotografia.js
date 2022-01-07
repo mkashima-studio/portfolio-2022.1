@@ -1,5 +1,6 @@
 import fotografia from './fotografia.module.css'
 import Image from 'next/image'
+import Layout from './layout'
 
 // Images
 
@@ -73,7 +74,7 @@ import port2 from '../public/photos/port/portraits (3).jpg'
 
 
 function Fotografia() {
-    return <div>
+    return (<section>
         <h5>mkashima portfolio_2022 •</h5>
         <h6>/ foto / foto / say cheese</h6>
         <h1>FOTOGRAFIA</h1>
@@ -144,7 +145,15 @@ function Fotografia() {
                 <Image src={ind18} />
             </div>
         </div>   
-    </div>
+    </section>)
   }
   
 export default Fotografia
+
+Fotografia.getLayout = function getLayout(page) {
+    return (
+      <Layout>
+        {page}
+      </Layout>
+    )
+  }

@@ -1,0 +1,49 @@
+.column {
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 900px) {
+    .column {
+      width: 100%;
+    }
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skills {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 150%;
+    text-transform: uppercase;
+    line-height: 150%;
+    font-weight: 300;
+    color: red;
+}
+
+.text {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 150%;
+    text-transform: uppercase;
+    line-height: 150%;
+    font-weight: 300;
+    text-align: right;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.item {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 250%;
+    text-transform: uppercase;
+    line-height: 200%;
+    font-weight: 300;
+    text-align: right;
+}
