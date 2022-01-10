@@ -1,16 +1,26 @@
-.card {
+.list {
+    list-style-type: none;
     display: block;
-    border-style: solid;
-    box-shadow: -10px  -10px;
-    height: 200px;
-    min-height: 100%;
-    width: 30%;
+    justify-content: center;
 }
 
-.font {
+.item {
     font-family: "goudosi";
     font-size: 20px;
     line-height: 20px;
-    margin-top: 35px;
-    margin-left: 50px;
+    padding-top: 35px;
+    padding-left: 30px;
+}
+
+.card {
+    border-style: solid;
+    box-shadow: -10px  -10px;
+    width:400px;
+    height: 250px;
+}
+
+@media only screen and (min-width: 900px) {
+    .card {
+        margin-left: 0;
+    }
 }

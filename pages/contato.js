@@ -7,9 +7,11 @@ function Contato() {
       <h6>/ contact me / pourquoi pas</h6>
       <h1>GET IN TOUCH</h1>
       <div className={contato.card}>
-        <p className={contato.font}>studio@mkashima.com</p>
-        <p className={contato.font}>discord: mkashima #2118</p>
-        <p className={contato.font}>instagram: @mkashima</p>
+        <ul className={contato.list}>
+          <li className={contato.item}>studio@mkashima.com</li>
+          <li className={contato.item}>discord: mkashima #2118</li>
+          <li className={contato.item}>instagram: @mkashima</li>
+        </ul>
       </div>
     </section>)
   }

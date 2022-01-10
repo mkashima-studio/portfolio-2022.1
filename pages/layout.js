@@ -12,8 +12,13 @@ export default function Layout({children}) {
                 <link rel= "preload" href="/fonts/goudosi.otf" as="font" crossOrigin="" />
             </Head>
             <Navbar className={layout.nav} />
-            <main className={layout.main}>{children}</main>
-            <Footer className={layout.footer} />
+            <section className={layout.main}>
+                {children}
+            </section>
+            <footer>
+                <Footer className={layout.foot} />
+            </footer>
+            
         </>
     )
 }

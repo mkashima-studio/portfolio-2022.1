@@ -20,19 +20,7 @@ function Info() {
           <div className={info.photo}>
             <Image src={mkphoto2} />
           </div>
-          <ul className={info.list}>
-            <li className={info.item}>
-              <a target="_blank" href="https://imt-nord-europe.fr/" rel="noopener noreferrer"><img src="/photos/info/imt.png" alt= "imt lille douai website" width="100px" /></a>
-            </li>
-            <li className={info.item}>
-              <a target="_blank" href="http://www.poli.ufrj.br/" rel="noopener noreferrer"><img src="/photos/info/poliufrj.png" alt= "escola politécnica ufrj website" width="120px" /></a>
-            </li>
-            <li className={info.item}>
-              <a target="_blank" href="http://repositorio.poli.ufrj.br/monografias/monopoli10023307.pdf" rel="noopener noreferrer">monografia <br></br> <img src="/link-arrow.svg" alt= "arrow to the right" width="50px" /></a>
-            </li>
-          </ul>
         </div>
-
         <div className={info.column}>
           <h1>Experiências</h1>
           <h2>
@@ -92,6 +80,17 @@ function Info() {
               <b><u>Assistente de Pesquisa no Observatório Nacional do Rio de Janeiro</u></b>: sobre limites nos modelos teóricos de explosão 
               de supernovas usando enriquecimento de metais pesados no meio intra aglomerado com o Satélite Suzaku.
             </li>
+            <ul className={info.list}>
+              <li className={info.item}>
+                <a target="_blank" href="https://imt-nord-europe.fr/" rel="noopener noreferrer"><img src="/photos/info/imt.png" alt= "imt lille douai website" width="100px" /></a>
+              </li>
+              <li className={info.item}>
+                <a target="_blank" href="http://www.poli.ufrj.br/" rel="noopener noreferrer"><img src="/photos/info/poliufrj.png" alt= "escola politécnica ufrj website" width="120px" /></a>
+              </li>
+              <li className={info.item}>
+                <a target="_blank" href="http://repositorio.poli.ufrj.br/monografias/monopoli10023307.pdf" rel="noopener noreferrer">monografia <br></br> <img src="/link-arrow.svg" alt= "arrow to the right" width="50px" /></a>
+              </li>
+            </ul>
             </ul> 
           </h2>
         </div>

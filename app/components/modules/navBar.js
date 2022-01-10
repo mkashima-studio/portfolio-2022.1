@@ -33,8 +33,7 @@ export default function Navbar() {
                         </ul>        
                     </div>  
                 </div>
-            </div>    
-        </>    
+            </div>  
+        </>
     )
-    
 }
