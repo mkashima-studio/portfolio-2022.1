@@ -35,4 +35,60 @@
     flex-flow: row wrap;
     margin-left: 0;
   }
+
+  .bar {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin: 30px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navmob {
+    display: none;
+  }
+
+  .navmob.active {
+    display: block;
+    background: white;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .navmobitem {
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin: 5px 0px 0px 0px;
+    display: block;
+    color: black;
+    padding: 8px 8px 0px 45px;
+  }
 }
+
