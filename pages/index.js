@@ -26,6 +26,8 @@ function Home() {
       <div className={index.row}>
         <div className={index.column}>
           <img className={index.photo} src="/photos/home/mkself1.jpg" alt= "mkashima self portrait" />
+          <img className={index.jp} src="/jp-text-red.svg" alt= "japanese mkashima's presentation" />
+          <img className={index.jpdesk} src="/jp-text-red.svg" alt= "japanese mkashima's presentation" />
         </div>
         <div className={index.column}>
           <img src="/hello.svg" alt= "hello" width="83%" />
