@@ -80,69 +80,69 @@ function Fotografia() {
         <h1>FOTOGRAFIA</h1>
         <div className={fotografia.row}>
             <div className={fotografia.column}>
-                <Image src={food1} />
-                <Image src={food4} />
-                <Image src={ind2} />
-                <Image src={food7} />
-                <Image src={ind5} />
-                <Image src={food10} />
-                <Image src={food13} />
-                <Image src={food16} />
-                <Image src={food19} />
-                <Image src={ind8} />
-                <Image src={food22} />
-                <Image src={food25} />
-                <Image src={ind11} />
-                <Image src={food28} />
-                <Image src={food31} />
-                <Image src={ind14} />
-                <Image src={food34} />
-                <Image src={food37} />
-                <Image src={ind16} />
-                <Image src={food39} />
-                <Image src={ind1} />
+                <Image src={food1} alt="mkashima photography" />
+                <Image src={food4} alt="mkashima photography" />
+                <Image src={ind2} alt="mkashima photography" />
+                <Image src={food7} alt="mkashima photography" />
+                <Image src={ind5} alt="mkashima photography" />
+                <Image src={food10} alt="mkashima photography" />
+                <Image src={food13} alt="mkashima photography" />
+                <Image src={food16} alt="mkashima photography" />
+                <Image src={food19} alt="mkashima photography" />
+                <Image src={ind8} alt="mkashima photography" />
+                <Image src={food22} alt="mkashima photography" />
+                <Image src={food25} alt="mkashima photography" />
+                <Image src={ind11} alt="mkashima photography" />
+                <Image src={food28} alt="mkashima photography" />
+                <Image src={food31} alt="mkashima photography" />
+                <Image src={ind14} alt="mkashima photography" />
+                <Image src={food34} alt="mkashima photography" />
+                <Image src={food37} alt="mkashima photography" />
+                <Image src={ind16} alt="mkashima photography" />
+                <Image src={food39} alt="mkashima photography" />
+                <Image src={ind1} alt="mkashima photography" />
             </div>
             <div className={fotografia.column}>
-                <Image src={food2} />
-                <Image src={food5} />
-                <Image src={food8} />
-                <Image src={food11} />
-                <Image src={ind3} />
-                <Image src={food14} />
-                <Image src={food17} />
-                <Image src={ind6} />
-                <Image src={food20} />
-                <Image src={food23} />
-                <Image src={port1} />
-                <Image src={ind9} />
-                <Image src={food26} />
-                <Image src={food29} />
-                <Image src={ind12} />
-                <Image src={food32} />
-                <Image src={food35} />
-                <Image src={ind15} />
-                <Image src={food38} />
-                <Image src={ind17} />
+                <Image src={food2} alt="mkashima photography" />
+                <Image src={food5} alt="mkashima photography" />
+                <Image src={food8} alt="mkashima photography" />
+                <Image src={food11} alt="mkashima photography" />
+                <Image src={ind3} alt="mkashima photography" />
+                <Image src={food14} alt="mkashima photography" />
+                <Image src={food17} alt="mkashima photography" />
+                <Image src={ind6} alt="mkashima photography" />
+                <Image src={food20} alt="mkashima photography" />
+                <Image src={food23} alt="mkashima photography" />
+                <Image src={port1} alt="mkashima photography" />
+                <Image src={ind9} alt="mkashima photography" />
+                <Image src={food26} alt="mkashima photography" />
+                <Image src={food29} alt="mkashima photography" />
+                <Image src={ind12} alt="mkashima photography" />
+                <Image src={food32} alt="mkashima photography" />
+                <Image src={food35} alt="mkashima photography" />
+                <Image src={ind15} alt="mkashima photography" />
+                <Image src={food38} alt="mkashima photography" />
+                <Image src={ind17} alt="mkashima photography" />
             </div>
             <div className={fotografia.column}>
-                <Image src={food3} />
-                <Image src={port2} />
-                <Image src={food6} />
-                <Image src={food9} />
-                <Image src={ind4} />
-                <Image src={food12} />
-                <Image src={food15} />
-                <Image src={ind7} />
-                <Image src={food18} />
-                <Image src={food21} />
-                <Image src={ind10} />
-                <Image src={food24} />
-                <Image src={food27} />
-                <Image src={ind13} />
-                <Image src={food30} />
-                <Image src={food33} />
-                <Image src={food36} />
-                <Image src={ind18} />
+                <Image src={food3} alt="mkashima photography" />
+                <Image src={port2} alt="mkashima photography" />
+                <Image src={food6} alt="mkashima photography" />
+                <Image src={food9} alt="mkashima photography" />
+                <Image src={ind4} alt="mkashima photography" />
+                <Image src={food12} alt="mkashima photography" />
+                <Image src={food15} alt="mkashima photography" />
+                <Image src={ind7} alt="mkashima photography" />
+                <Image src={food18} alt="mkashima photography" />
+                <Image src={food21} alt="mkashima photography" />
+                <Image src={ind10} alt="mkashima photography" />
+                <Image src={food24} alt="mkashima photography" />
+                <Image src={food27} alt="mkashima photography" />
+                <Image src={ind13} alt="mkashima photography" />
+                <Image src={food30} alt="mkashima photography" />
+                <Image src={food33} alt="mkashima photography" />
+                <Image src={food36} alt="mkashima photography" />
+                <Image src={ind18} alt="mkashima photography" />
             </div>
         </div>   
     </section>)

@@ -1,23 +1,6 @@
 import React from 'react'
 import index from './index.module.css'
-import Link from 'next/link'
 import Layout from './layout'
-
-const WebDevButton = React.forwardRef( ({ onClick, href }, ref) => {
-  return (
-    <a className={index.links} href={href} onClick={onClick} ref={ref}>
-      WEB DEV <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" />
-    </a>
-  )
-})
-
-const FotografiaButton = React.forwardRef(({ onClick, href }, ref) => {
-  return (
-    <a className={index.links} href={href} onClick={onClick} ref={ref}>
-      F0T0GRAFIA <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" />
-    </a>
-  )
-})
 
 function Home() {
   return ( <section>
@@ -38,15 +21,11 @@ function Home() {
           </h2>
           <ul className={index.list}>
             <li className={index.item}>
-              <Link href="/webDev" passHref>
-                <WebDevButton />
-              </Link>
+              <a className={index.links} href="https://www.mkashima.com/webDev">WEBDEV <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a>
             </li>
             <br></br>
             <li className={index.item}>
-              <Link href="/fotografia" passHref>
-                <FotografiaButton />
-              </Link>
+              <a className={index.links} href="https://www.mkashima.com/fotografia">FOTOGRAFIA <img src="/link-arrow.svg" alt= "arrow to the right" width="70px" /></a>
             </li>
           </ul>
         </div>

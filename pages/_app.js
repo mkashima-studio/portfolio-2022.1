@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import '../app/styles/global.css'
 
 export default function MyApp({ Component, pageProps }) {

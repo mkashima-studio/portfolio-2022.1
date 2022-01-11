@@ -20,7 +20,7 @@ function WebDev() {
 
     <div className={index.row}>
       <div className={index.column}>
-        <Image src={cpn} />
+        <Image src={cpn} alt="mkashima for cpn"/>
       </div>
       <div className={index.column}>
         <div>
