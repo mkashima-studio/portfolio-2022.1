@@ -1,8 +1,7 @@
 import index from './index.module.css'
-import Image from 'next/image'
 import Layout from '../layout'
 
-import cpn from '../../public/photos/webdev/cpn-webdev.png'
+const cpn = '/photos/webdev/cpn-webdev.png'
 
 function WebDev() {
   return (<section>
@@ -20,7 +19,7 @@ function WebDev() {
 
     <div className={index.row}>
       <div className={index.column}>
-        <Image src={cpn} alt="mkashima for cpn"/>
+        <img src={cpn} alt="mkashima for cpn" width="100%"/>
       </div>
       <div className={index.column}>
         <div>

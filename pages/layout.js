@@ -18,14 +18,14 @@ export default function Layout({children}) {
                 <link rel="preload" href="/fonts/goudosi.otf" as="font" crossOrigin="" />
             </Head>
             <header>
-                <Navbar className={isOpen === false ? layout.nav : layout.nav +' '+layout.active} />
-                <button className={isOpen === false ? layout.hamburger : layout.hamburger +' '+layout.active}
+                <Navbar className={isOpen === false ? layout.nav : layout.nav + ' ' + layout.active} />
+                <button className={isOpen === false ? layout.mobile + ' ' + layout.hamburger : layout.mobile + ' ' + layout.hamburger +' '+layout.active}
                 onClick={openMenu}>
                     <span className={layout.bar}></span>
                     <span className={layout.bar}></span>
                     <span className={layout.bar}></span>
                 </button>
-                <ul className={isOpen === false ? layout.navmob : layout.navmob +' '+layout.active} 
+                <ul className={isOpen === false ? layout.mobile + ' ' + layout.navmob : layout.mobile + ' ' + layout.navmob +' ' + layout.active} 
                 onClick={openMenu}>
                     <li className={layout.navmobitem}><Link href="/"><a>/ HOME</a></Link></li>
                     <li className={layout.navmobitem}><Link href="/fotografia"><a>/ FOTOGRAFIA</a></Link></li>

@@ -1,8 +1,7 @@
 import info from './info.module.css'
-import Image from 'next/image'
 import Layout from './layout'
 
-import mkphoto2 from '../public/photos/info/mkself2.jpg'
+const mkphoto2 = '/photos/info/mkself2.jpg'
 
 function Info() {
   return (
@@ -18,7 +17,7 @@ function Info() {
       <div className={info.row}>
         <div className={info.column}>
           <div className={info.photo}>
-            <Image src={mkphoto2} />
+            <img src={mkphoto2} width="100%"/>
           </div>
         </div>
         <div className={info.column}>
