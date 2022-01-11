@@ -5,7 +5,7 @@ module.exports = {
   images: {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
   },
-  assetPrefix: !debug ? '/portfolio-2022.1/' : '',
+  assetPrefix: !debug ? '' : '',
   exportPathMap: function() {
     return {
       '/': { page: '/' },
