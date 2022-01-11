@@ -8,19 +8,29 @@
     font-family: "goudosi";
     font-size: 20px;
     line-height: 20px;
-    padding-top: 35px;
-    padding-left: 30px;
+    padding-top: 30px;
+    padding-left: 5px;
 }
 
 .card {
     border-style: solid;
     box-shadow: -10px  -10px;
-    width:400px;
-    height: 250px;
+    width: 280px;
+    height: 220px;
 }
 
 @media only screen and (min-width: 900px) {
     .card {
         margin-left: 0;
+        width: 400px;
+        height: 250px;
+    }
+
+    .item {
+        font-family: "goudosi";
+        font-size: 20px;
+        line-height: 20px;
+        padding-top: 35px;
+        padding-left: 30px;
     }
 }
